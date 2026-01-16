@@ -1,0 +1,52 @@
+/* The only rule that matters */
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+/* These just style the content */
+article {
+/*  just a fancy border  */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  margin: 10px;
+}
+
+h9 {
+
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #fff;
+    font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+h9 span {
+  font-family: sans-serif;
+  letter-spacing: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+a{
+  color: red;
+}
+
+h9 span a {
+
+  color: #b32b2b;
+}
